@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "954615339418",
+    "project_id": "simple-auth-a03fd",
+    "storage_bucket": "simple-auth-a03fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954615339418:android:1b56d434d38487bae78223",
+        "android_client_info": {
+          "package_name": "com.example.authenticatio_samplen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS3iQTGnEQ6MviCfsPLkta_v_SUy1dA-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
