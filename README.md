@@ -1,4 +1,4 @@
-# authenticatio_samplen
+# Chat Application using Firebase
 
 A new Flutter project.
 
