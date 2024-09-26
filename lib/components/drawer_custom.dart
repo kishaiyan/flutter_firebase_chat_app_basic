@@ -41,6 +41,19 @@ class MyDrawer extends StatelessWidget {
                   ),
                 ),
               ),
+              GestureDetector(
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.pushNamed(context, '/wall');
+                },
+                child: const Padding(
+                  padding: EdgeInsets.only(left: 15),
+                  child: ListTile(
+                    title: Text("WALL"),
+                    leading: Icon(Icons.settings),
+                  ),
+                ),
+              ),
             ],
           ),
           GestureDetector(

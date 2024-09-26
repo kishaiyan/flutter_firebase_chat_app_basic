@@ -1,4 +1,7 @@
 import 'package:authenticatio_samplen/pages/auth_path.dart';
+import 'package:authenticatio_samplen/pages/home_page.dart';
+import 'package:authenticatio_samplen/pages/settings_page.dart';
+import 'package:authenticatio_samplen/pages/wall_page.dart';
 import 'package:authenticatio_samplen/theme/theme_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
@@ -24,6 +27,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const AuthPage(),
       theme: Provider.of<ThemeProvider>(context).themeData,
+      routes: {
+        '/home': (context) => HomePage(),
+        '/settings': (context) => const SettingsPage(),
+        '/wall': (context) => WallPage(),
+      },
     );
   }
 }
